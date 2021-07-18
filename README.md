@@ -18,8 +18,8 @@ npm i p5js-node
 
 #### Usage
 ```js
-const p5 = require('p5js-node')
-const path = require("path")
+const p5 = require("p5js-node");
+const path = require("path");
 const fs = require("fs");
 
 new p5((p)=>{
@@ -31,9 +31,9 @@ new p5((p)=>{
 		p.background(0);
 		p.fill(255);
 		p.rect(10,10, 50, 50);
-		fs.promises.writeFile(__path.join(__dirname,"..","test.png"), p.canvas.toBuffer())
+		fs.promises.writeFile(__path.join(__dirname,"..","test.png"), p.canvas.toBuffer());
 	};
-})
+});
 ```
 
 ## Notice
