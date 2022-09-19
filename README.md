@@ -5,7 +5,7 @@ p5js-node a Node.js implementation of p5.js for drawing to canvas with nodejs. (
 The [p5js.org](https://p5js.org) website contains an extensive overview of the project, community, documentation, and examples.
 
 ### Difference to ``node-p5``
-It doesn't use **jsdom** and is actively maintained always up to date fork
+It doesn't use **jsdom**
 
 ## Get Started
 
